@@ -1,0 +1,180 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+Mobile: 375px
+Desktop: 1440px
+
+
+#### Text
+
+Very dark desaturated blue: hsl(238, 29%, 16%)
+
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(360deg,hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+}
+
+.container{
+    position: relative;
+    background-color: rgb(255, 255, 234);
+    border-radius: 20px;
+    padding: 50px 80px 50px 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.mainContainer{
+    position: relative;
+}
+
+.ilustration{
+    position: absolute;
+    left: -100px;
+}
+
+.boxIlustration{
+    position: absolute;
+    left: 160px;
+    top: 300px;
+    z-index: 2;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.questionContainer{
+    border-bottom: hsl(240, 5%, 91%) 2px solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    position: relative;
+}
+
+.questionContainer h3 {
+    color: hsl(237, 12%, 33%);
+    display: inline;
+}
+
+.arrow{
+    position: absolute;
+    right:15px;
+}
+
+
+.questionContainer h3:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+.questionContainer p{
+    color: hsl(240, 6%, 50%);
+    padding-top: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.arrowDown{
+    transform: rotate(180deg);
+    transition: all 50ms;
+}
+
+.arrow:hover, .arrowDown:hover{
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 20px;
+}
+
+footer a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+@media(max-width: 1440px){
+    body{
+        width: 100vw;
+    }
+
+    .ilustration, .boxIlustration, .ilustrationMobile{
+        display: none;
+    }
+
+    .mainContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    .questionContainer{
+        width: 100%;
+    }
+}
+
+@media(max-width: 570px){
+    body{
+        width: 100vw;
+    }
+
+    .container{
+        padding: 120px 20px 40px;
+        margin: 100px 0 70px;
+        overflow: visible;
+    }
+
+    .ilustration, .boxIlustration{
+        display: none;
+    }
+
+    .ilustrationMobile{
+        display: block;
+        position: absolute;
+        top: -110px;
+        left: 15px;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .mainContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    .questionContainer{
+        width: 100%;
+    }
+}

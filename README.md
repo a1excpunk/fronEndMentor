@@ -1,6 +1,6 @@
 # FronEndMentor challenge solutions
 
-### Markdown refactoring ... coming soon!
+### Markdown refactoring and update ... coming soon!
 
 https://a1excpunk.github.io/fronEndMentor/nft-preview-card-component-main/
 

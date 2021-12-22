@@ -8,6 +8,4 @@ https://a1excpunk.github.io/fronEndMentor/Article_Preview_Component_Master/
 
 https://a1excpunk.github.io/fronEndMentor/profile_card_component/
 
-OLD
 
-https://a1excpunk.github.io/fronEndMentor/FAQ%20Accordion%20Card%20Main/

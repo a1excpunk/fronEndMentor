@@ -47,7 +47,7 @@ h1>span {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    margin-bottom: 100px;
+    position: relative;
 }
 
 .email-input>input {
@@ -66,10 +66,15 @@ h1>span {
 }
 
 .error-message {
+    position: absolute;
     display: none;
     color: var(--secondary-Light_Red);
     font-size: 13px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    /* text-align: start; */
+    /* padding-left: 15px; */
+    top: 70px;
+    left: 20px;
 }
 
 
@@ -96,6 +101,7 @@ h1>span {
 }
 
 .hero-img {
+    margin-top: 100px;
     margin-bottom: 90px;
 }
 
@@ -146,6 +152,5 @@ ion-icon:active{
 
     .email-input {
         flex-direction: column;
-        gap: 20px;
     }
 }

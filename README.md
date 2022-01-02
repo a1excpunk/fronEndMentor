@@ -15,3 +15,5 @@ https://a1excpunk.github.io/fronEndMentor/order-summary-component-main/
 https://a1excpunk.github.io/fronEndMentor/stats-preview-card-component-main/
 
 https://a1excpunk.github.io/fronEndMentor/four-card-feature-section-master/
+
+https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/

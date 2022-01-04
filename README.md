@@ -21,3 +21,5 @@ https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/
 https://a1excpunk.github.io/fronEndMentor/base-apparel-coming-soon-master/
 
 https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/
+
+https://a1excpunk.github.io/fronEndMentor/huddle-landing-page-with-single-introductory-section-master/

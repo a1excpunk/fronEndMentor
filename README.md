@@ -19,3 +19,5 @@ https://a1excpunk.github.io/fronEndMentor/four-card-feature-section-master/
 https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/
 
 https://a1excpunk.github.io/fronEndMentor/base-apparel-coming-soon-master/
+
+https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/

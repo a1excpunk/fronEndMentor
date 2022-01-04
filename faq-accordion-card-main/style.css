@@ -1,0 +1,138 @@
+:root {
+    --primary-text-Very_dark_desaturated_blue: hsl(238, 29%, 16%);
+    --primary-text-Soft_red: hsl(14, 88%, 65%);
+
+    --primary-Soft_violet: hsl(273, 75%, 66%);
+    --primary-Soft_blue: hsl(240, 73%, 65%);
+
+    --neutral-text-Very_dark_grayish_blue: hsl(237, 12%, 33%);
+    --neutral-text-Dark_grayish_blue: hsl(240, 6%, 50%);
+
+    --neutral-Light_grayish_blue: hsl(240, 5%, 91%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.mobile {
+    display: none;
+}
+
+body {
+    background-image: linear-gradient(var(--primary-Soft_violet), var(--primary-Soft_blue));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ilustration {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.ilustration img {
+    position: absolute;
+}
+
+.illustration-woman-online-desktop {
+    bottom: 70px;
+    right: 10px;
+    z-index: 2;
+}
+
+.illustration-box-desktop {
+    bottom: 110px;
+    left: -90px;
+    position: absolute;
+
+    z-index: 3;
+}
+
+.bg-pattern-desktop {
+    top: -300px;
+    right: 0;
+}
+
+.faq-wrapper {
+    flex: 1;
+    padding: 70px 100px;
+}
+
+.faq-wrapper h1 {
+    font-size: 30px;
+    color: var(--primary-text-Very_dark_desaturated_blue);
+}
+
+.question {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--neutral-Light_grayish_blue);
+    color: var(--neutral-text-Dark_grayish_blue);
+    cursor: pointer;
+}
+
+.question h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.answer {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .ilustration{
+        overflow: visible;
+    }
+
+    .bg-pattern-mobile{
+    }
+
+    .illustration-woman-online-mobile{
+        width: 100%;
+    }
+
+    .faq-wrapper {
+        padding: 70px 30px;
+    }
+
+    .faq-wrapper h1 {
+        text-align: center;
+    }
+
+    .question img {
+        margin-left: 20px;
+    }
+}

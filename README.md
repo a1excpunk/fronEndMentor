@@ -1,6 +1,9 @@
 # FronEndMentor challenge solutions
 
-### Markdown refactoring and update ... coming soon!
+## Markdown refactoring and update ... coming soon!
+
+
+### Newbie
 
 https://a1excpunk.github.io/fronEndMentor/nft-preview-card-component-main/
 
@@ -25,3 +28,8 @@ https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/
 https://a1excpunk.github.io/fronEndMentor/huddle-landing-page-with-single-introductory-section-master/
 
 https://a1excpunk.github.io/fronEndMentor/social-proof-section-master/
+
+
+### Junior
+
+https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/

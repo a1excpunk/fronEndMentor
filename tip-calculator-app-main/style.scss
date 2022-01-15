@@ -1,0 +1,120 @@
+$primary-Strong_cyan: hsl(172, 67%, 45%);
+
+$neutral-Very_dark_cyan: hsl(183, 100%, 15%);
+$neutral-Darker_grayish_cyan: hsl(186, 14%, 43%);
+$neutral-Dark_grayish_cyan: hsl(184, 14%, 56%);
+$neutral-Light_grayish_cyan: hsl(185, 41%, 84%);
+$neutral-Lighter_grayish_cyan: hsl(189, 41%, 97%);
+$neutral-White: hsl(0, 0%, 100%);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: $neutral-Light_grayish_cyan;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 40px;
+}
+
+input,
+button {
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.calculator-wrapper {
+  > p {
+    color: $neutral-Very_dark_cyan;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 10px;
+    &:nth-of-type(2) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .calculator {
+    background-color: $neutral-White;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+
+    p {
+      color: $neutral-Darker_grayish_cyan;
+      font-weight: 700;
+    }
+
+    .tip-input-wrapper {
+      flex: 1.5;
+    }
+
+    .tip-result-wrapper {
+      background-color: $neutral-Very_dark_cyan;
+      border-radius: 10px;
+      padding: 30px;
+      flex: 1;
+
+      .tip-res-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .tip-res {
+          p {
+            color: $neutral-White;
+
+            &:nth-of-type(2) {
+              color: $neutral-Dark_grayish_cyan;
+              font-size: 14px;
+            }
+          }
+        }
+
+        .tip-res-nums {
+          font-size: 45px;
+          color: $primary-Strong_cyan;
+
+          svg {
+            transform: scale(2);
+            margin-bottom: 8px;
+            margin-right: 8px;
+
+            path {
+              height: 100%;
+              fill: $primary-Strong_cyan;
+            }
+          }
+        }
+      }
+
+      .btn-reset {
+        width: 100%;
+        color: $neutral-Very_dark_cyan;
+        background-color: $primary-Strong_cyan;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 100px;
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 12px;
+}
+
+.attribution a {
+  color: $primary-Strong_cyan;
+}

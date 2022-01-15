@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: #c5e4e7;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  gap: 40px;
+}
+
+input,
+button {
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.calculator-wrapper > p {
+  color: #00494d;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+
+.calculator-wrapper > p:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+
+.calculator-wrapper .calculator {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calculator-wrapper .calculator p {
+  color: #5e7a7d;
+  font-weight: 700;
+}
+
+.calculator-wrapper .calculator .tip-input-wrapper {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper {
+  background-color: #00494d;
+  border-radius: 10px;
+  padding: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .tip-res-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .tip-res-wrapper .tip-res p {
+  color: white;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .tip-res-wrapper .tip-res p:nth-of-type(2) {
+  color: #7f9c9f;
+  font-size: 14px;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .tip-res-wrapper .tip-res-nums {
+  font-size: 45px;
+  color: #26c0ab;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .tip-res-wrapper .tip-res-nums svg {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .tip-res-wrapper .tip-res-nums svg path {
+  height: 100%;
+  fill: #26c0ab;
+}
+
+.calculator-wrapper .calculator .tip-result-wrapper .btn-reset {
+  width: 100%;
+  color: #00494d;
+  background-color: #26c0ab;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.attribution {
+  font-size: 12px;
+}
+
+.attribution a {
+  color: #26c0ab;
+}
+/*# sourceMappingURL=style.css.map */

@@ -33,3 +33,6 @@ https://a1excpunk.github.io/fronEndMentor/social-proof-section-master/
 ### Junior
 
 https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/
+
+
+https://a1excpunk.github.io/fronEndMentor/tip-calculator-app-main/

@@ -1,0 +1,116 @@
+//font
+$Barlow: "Barlow", sans-serif;
+$Fraunces: "Fraunces", serif;
+
+//primary colors
+$Soft_red: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+//(graphic design text)
+$Dark_desaturated_cyan: hsl(167, 40%, 24%);
+//(photography text)
+$Dark_blue: hsl(198, 62%, 26%);
+// (footer)
+$Dark_moderate_cyan: hsl(168, 34%, 41%);
+
+//secondary colors
+$Very_dark_desaturated_blue: hsl(212, 27%, 19%);
+$Very_dark_grayish_blue: hsl(213, 9%, 39%);
+$Dark_grayish_blue: hsl(232, 10%, 55%);
+$Grayish_blue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+
+a {
+  font-family: $Barlow;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-size: 18px;
+    .wrapper {
+      max-width: 1440px;
+      margin: auto;
+
+      background-color: #5badff;
+      .header {
+        background: url("./images/desktop/image-header.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        height: 100vh;
+        width: 100%;
+        header {
+          padding: 25px 40px;
+          display: flex;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+          .logo-img-wrapper {
+            position: relative;
+            min-width: 124px;
+            height: 24px;
+            img {
+              position: absolute;
+              left: 0;
+              top: 0;
+            }
+          }
+          nav {
+            font-family: $Barlow;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            font-size: 14px;
+            a {
+              color: $White;
+              &.contact {
+                color: hsl(0, 0%, 0%);
+                margin-left: 15px;
+                padding: 13px 25px;
+
+                background-color: $White;
+                border: none;
+                border-radius: 50px;
+                font-family: $Fraunces;
+                text-transform: uppercase;
+
+                &:hover {
+                  background-color: hsla(0, 0%, 100%, 0.3);
+                  color: $White;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+
+        h1 {
+          color: $White;
+          font-family: $Fraunces;
+          font-weight: 900;
+          text-transform: uppercase;
+          text-align: center;
+          letter-spacing: 7px;
+        }
+        .arrow-down-icon {
+         
+            width: max-content;
+            align-self: center;
+        //   margin: auto;
+        // div {
+        //     width: 100%;
+        //     height: 50vh;
+        //     display: flex;
+        //   }
+        }
+      }
+    }
+  }
+}

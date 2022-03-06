@@ -5,9 +5,7 @@ $Fraunces: "Fraunces", serif;
 //primary colors
 $Soft_red: hsl(7, 99%, 70%);
 $Yellow: hsl(51, 100%, 49%);
-//(graphic design text)
 $Dark_desaturated_cyan: hsl(167, 40%, 24%);
-//(photography text)
 $Dark_blue: hsl(198, 62%, 26%);
 // (footer)
 $Dark_moderate_cyan: hsl(168, 34%, 41%);
@@ -24,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  display: none !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -36,12 +38,16 @@ a {
       margin: auto;
 
       .header {
+        background-image: url("./images/desktop/image-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100 100;
         display: flex;
         flex-direction: column;
         gap: 100px;
-        height: 100vh;
+        height: 85vh;
         width: 100%;
-        .header-bg-img{
+        .header-bg-img {
           position: absolute;
           max-width: 1440px;
           width: 100%;
@@ -143,6 +149,143 @@ a {
         .arrow-down-icon {
           width: max-content;
           align-self: center;
+          cursor: pointer;
+        }
+      }
+
+      .transform-article,
+      .stand-out-article {
+        display: flex;
+        .img-wrapper {
+          width: 50%;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      .transform-text,
+      .stand-out-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 40px;
+        color: $Dark_grayish_blue;
+        font-family: $Barlow;
+        padding: 20px;
+        padding-left: 150px;
+        width: 50%;
+        h2 {
+          font-size: 2.5rem;
+          font-weight: 900;
+          font-family: $Fraunces;
+          color: rgb(39, 39, 39);
+          width: 80%;
+        }
+        
+        p {
+          width: 80%;
+          line-height: 30px;
+        }
+
+        a {
+          font-family: $Fraunces;
+          color: rgb(39, 39, 39);
+          text-transform: uppercase;
+          position: relative;
+          font-weight: 900;
+          &::after {
+            content: "";
+            width: 110%;
+            left: -5%;
+            bottom: -1px;
+            position: absolute;
+            border-bottom: 10px $Yellow solid;
+            border-radius: 50px;
+            opacity: 20%;
+            z-index: -1;
+          }
+        }
+
+        .stand-out-learn-more::after {
+          border-color: $Soft_red;
+        }
+      }
+
+      .graphic-design-and-photography-article {
+        display: flex;
+        .graphic-design-wrapper,
+        .photograpy-wrapper {
+          position: relative;
+          img{
+            width: 100%;
+          }
+          div {
+            position: absolute;
+            bottom: 60px;
+            text-align: center;
+            h3 {
+              
+              font-family: $Fraunces;
+              font-weight: 900;
+              font-size: 1.8rem;
+              margin-bottom: 30px;
+              color: $Dark_blue;
+            }
+            
+            p {
+              margin: auto;
+              color: $Dark_blue;
+              font-family: $Barlow;
+              line-height: 25px;
+              font-size: 16px;
+              width: 50%;
+            }
+          }
+        }
+
+        .graphic-design-wrapper {
+          div {
+            h3,
+            p {
+              color: $Dark_desaturated_cyan;
+            }
+          }
+        }
+      }
+
+      .client-testimonials-wrapper{
+        margin-top: 150px;
+        text-align: center;
+        header{
+          margin-bottom: 50px;
+          h4{
+            font-family: $Fraunces;
+            font-weight: 900;
+            color: $Grayish_blue;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+          }
+        }
+
+        .testimonial-cards{
+          display: flex;
+          font-family: $Barlow;
+          color: $Very_dark_grayish_blue;
+          gap: 40px;
+          width: 80%;
+          margin: auto;
+          margin-top: 100px;
+          img{
+            border-radius: 50%;
+            width: 70px;
+          }
+          .testimonial{
+            width: 80%;
+            margin: 60px auto;
+          }
         }
       }
     }

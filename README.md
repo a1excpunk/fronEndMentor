@@ -22,6 +22,8 @@
 
 [Four Card Feature Section](https://a1excpunk.github.io/fronEndMentor/four-card-feature-section-master/)
 
+[Social Proof Section](https://a1excpunk.github.io/fronEndMentor/social-proof-section-master/)
+
 ###### Pages
 
 [Ping Comming Soon Page](https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/)
@@ -29,8 +31,6 @@
 [Base Apparel Comming Soon](https://a1excpunk.github.io/fronEndMentor/base-apparel-coming-soon-master/)
 
 [Huddle Landing Page](https://a1excpunk.github.io/fronEndMentor/huddle-landing-page-with-single-introductory-section-master/)
-
-[Social Proof Section](https://a1excpunk.github.io/fronEndMentor/social-proof-section-master/)
 
 ### Junior
 

@@ -6,17 +6,17 @@
 
 ###### Components
 
-[NFT Card Preview](https://a1excpunk.github.io/fronEndMentor/nft-preview-card-component-main/)
+[NFT Preview Card](https://a1excpunk.github.io/fronEndMentor/nft-preview-card-component-main/)
 
-[Article Preview](https://a1excpunk.github.io/fronEndMentor/Article_Preview_Component_Master/)
+[Article Preview Card](https://a1excpunk.github.io/fronEndMentor/Article_Preview_Component_Master/)
 
 [Profile Card](https://a1excpunk.github.io/fronEndMentor/profile_card_component/)
 
 [3 Column Preview Card](https://a1excpunk.github.io/fronEndMentor/3-column-preview-card-component-main/)
 
-[Single Price Grid](https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/)
+[Single Price Grid Card](https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/)
 
-[Order Summary](https://a1excpunk.github.io/fronEndMentor/order-summary-component-main/)
+[Order Summary Card](https://a1excpunk.github.io/fronEndMentor/order-summary-component-main/)
 
 [Stats Preview Card](https://a1excpunk.github.io/fronEndMentor/stats-preview-card-component-main/)
 
@@ -26,7 +26,7 @@
 
 ###### Pages
 
-[Ping Comming Soon Page](https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/)
+[Ping Comming Soon](https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/)
 
 [Base Apparel Comming Soon](https://a1excpunk.github.io/fronEndMentor/base-apparel-coming-soon-master/)
 
@@ -36,11 +36,11 @@
 
 ###### Components
 
-[Grid Testimonials](https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/)
+[Grid Testimonials Section](https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/)
 
-[Advice Generator]( https://a1excpunk.github.io/fronEndMentor/advice-generator-app-main/)
+[Advice Generator Card]( https://a1excpunk.github.io/fronEndMentor/advice-generator-app-main/)
 
-[Interactive Pricing Component ... in process](https://a1excpunk.github.io/fronEndMentor/interactive-pricing-component-main/)
+[Interactive Pricing Card ... in process](https://a1excpunk.github.io/fronEndMentor/interactive-pricing-component-main/)
 
 ###### Pages
 

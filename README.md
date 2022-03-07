@@ -2,41 +2,44 @@
 
 ## Markdown refactoring and update ... coming soon!
 
-
 ### Newbie
 
-https://a1excpunk.github.io/fronEndMentor/nft-preview-card-component-main/
+###### Components
 
-https://a1excpunk.github.io/fronEndMentor/Article_Preview_Component_Master/
+[NFT Card Preview](https://a1excpunk.github.io/fronEndMentor/nft-preview-card-component-main/)
 
-https://a1excpunk.github.io/fronEndMentor/profile_card_component/
+[Article Preview](https://a1excpunk.github.io/fronEndMentor/Article_Preview_Component_Master/)
 
-https://a1excpunk.github.io/fronEndMentor/3-column-preview-card-component-main/
+[Profile Card](https://a1excpunk.github.io/fronEndMentor/profile_card_component/)
 
-https://a1excpunk.github.io/fronEndMentor/order-summary-component-main/
+[3 Column Preview Card](https://a1excpunk.github.io/fronEndMentor/3-column-preview-card-component-main/)
 
-https://a1excpunk.github.io/fronEndMentor/stats-preview-card-component-main/
+[Single Price Grid](https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/)
 
-https://a1excpunk.github.io/fronEndMentor/four-card-feature-section-master/
+[Order Summary](https://a1excpunk.github.io/fronEndMentor/order-summary-component-main/)
 
-https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/
+[Stats Preview Card](https://a1excpunk.github.io/fronEndMentor/stats-preview-card-component-main/)
 
-https://a1excpunk.github.io/fronEndMentor/base-apparel-coming-soon-master/
+###### Pages
 
-https://a1excpunk.github.io/fronEndMentor/single-price-grid-component-master/
+[Four Card Feature Section](https://a1excpunk.github.io/fronEndMentor/four-card-feature-section-master/)
 
-https://a1excpunk.github.io/fronEndMentor/huddle-landing-page-with-single-introductory-section-master/
+[Ping Comming Soon Page](https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/)
 
-https://a1excpunk.github.io/fronEndMentor/social-proof-section-master/
+[Base Apparel Comming Soon](https://a1excpunk.github.io/fronEndMentor/base-apparel-coming-soon-master/)
 
+[Huddle Landing Page](https://a1excpunk.github.io/fronEndMentor/huddle-landing-page-with-single-introductory-section-master/)
+
+[Social Proof Section](https://a1excpunk.github.io/fronEndMentor/social-proof-section-master/)
 
 ### Junior
 
-https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/
+[Grid Testimonials](https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/)
 
+[Advice Generator](https://a1excpunk.github.io/fronEndMentor/advice-generator-app-main/)
 
-https://a1excpunk.github.io/fronEndMentor/tip-calculator-app-main/
+[Tip Calculator ... in process](https://a1excpunk.github.io/fronEndMentor/tip-calculator-app-main/)
 
-https://a1excpunk.github.io/fronEndMentor/interactive-pricing-component-main/
+[Interactive Pricing Component ... in process](https://a1excpunk.github.io/fronEndMentor/interactive-pricing-component-main/)
 
-https://a1excpunk.github.io/fronEndMentor/advice-generator-app-main/
+[Sunnyside Agency Landing Page ... in progress](https://a1excpunk.github.io/fronEndMentor/sunnyside-agency-landing-page-main/)

@@ -5,10 +5,9 @@ $Fraunces: "Fraunces", serif;
 //primary colors
 $Soft_red: hsl(7, 99%, 70%);
 $Yellow: hsl(51, 100%, 49%);
-$Dark_desaturated_cyan: hsl(167, 40%, 24%);
+$Dark_desaturated_cyan: hsl(168, 46%, 30%);
 $Dark_blue: hsl(198, 62%, 26%);
-// (footer)
-$Dark_moderate_cyan: hsl(168, 34%, 41%);
+$Dark_moderate_cyan: hsl(167, 44%, 70%);
 
 //secondary colors
 $Very_dark_desaturated_blue: hsl(212, 27%, 19%);
@@ -20,6 +19,10 @@ $White: hsl(0, 0%, 100%);
 a {
   font-family: $Barlow;
   text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 .hidden {
@@ -79,7 +82,7 @@ a {
             a {
               color: $White;
               &.contact {
-                color: hsl(0, 0%, 0%);
+                color: $Very_dark_desaturated_blue;
                 margin-left: 15px;
                 padding: 13px 25px;
 
@@ -181,10 +184,10 @@ a {
           font-size: 2.5rem;
           font-weight: 900;
           font-family: $Fraunces;
-          color: rgb(39, 39, 39);
+          color: $Very_dark_desaturated_blue;
           width: 80%;
         }
-        
+
         p {
           width: 80%;
           line-height: 30px;
@@ -192,7 +195,7 @@ a {
 
         a {
           font-family: $Fraunces;
-          color: rgb(39, 39, 39);
+          color: $Very_dark_desaturated_blue;
           text-transform: uppercase;
           position: relative;
           font-weight: 900;
@@ -219,7 +222,7 @@ a {
         .graphic-design-wrapper,
         .photograpy-wrapper {
           position: relative;
-          img{
+          img {
             width: 100%;
           }
           div {
@@ -227,14 +230,13 @@ a {
             bottom: 60px;
             text-align: center;
             h3 {
-              
               font-family: $Fraunces;
               font-weight: 900;
               font-size: 1.8rem;
               margin-bottom: 30px;
               color: $Dark_blue;
             }
-            
+
             p {
               margin: auto;
               color: $Dark_blue;
@@ -256,12 +258,12 @@ a {
         }
       }
 
-      .client-testimonials-wrapper{
-        margin-top: 150px;
+      .client-testimonials-wrapper {
+        margin: 160px 0;
         text-align: center;
-        header{
+        header {
           margin-bottom: 50px;
-          h4{
+          h4 {
             font-family: $Fraunces;
             font-weight: 900;
             color: $Grayish_blue;
@@ -270,7 +272,7 @@ a {
           }
         }
 
-        .testimonial-cards{
+        .testimonial-cards {
           display: flex;
           font-family: $Barlow;
           color: $Very_dark_grayish_blue;
@@ -278,13 +280,80 @@ a {
           width: 80%;
           margin: auto;
           margin-top: 100px;
-          img{
+          img {
             border-radius: 50%;
             width: 70px;
           }
-          .testimonial{
+          .testimonial {
             width: 80%;
             margin: 60px auto;
+          }
+        }
+      }
+    }
+
+    footer {
+      background-color: $Dark_moderate_cyan;
+      color: $Dark_desaturated_cyan;
+      text-align: center;
+      .footer-imgs-wrapper {
+        display: flex;
+
+        img {
+          width: 25%;
+        }
+      }
+
+      .footer-text-wrapper {
+        padding: 70px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .footer-logo-wrapper {
+          svg path {
+            fill: $Dark_desaturated_cyan;
+          }
+        }
+
+        .footer-menu {
+          ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            a {
+              color: $Dark_desaturated_cyan;
+
+              &:hover {
+                color: $White;
+              }
+            }
+          }
+        }
+
+        .soc-media {
+          margin-top: 30px;
+          ul {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+
+            a:hover {
+              svg path{
+                fill: $White;
+              }
+            }
+          }
+        }
+      }
+
+      .attribution{
+        padding: 20px 0 40px 0;
+        a{
+          color: $Yellow;
+
+          &:hover{
+            color: $Soft_red;
           }
         }
       }

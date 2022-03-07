@@ -20,9 +20,9 @@
 
 [Stats Preview Card](https://a1excpunk.github.io/fronEndMentor/stats-preview-card-component-main/)
 
-###### Pages
-
 [Four Card Feature Section](https://a1excpunk.github.io/fronEndMentor/four-card-feature-section-master/)
+
+###### Pages
 
 [Ping Comming Soon Page](https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/)
 
@@ -34,12 +34,21 @@
 
 ### Junior
 
+###### Components
+
 [Grid Testimonials](https://a1excpunk.github.io/fronEndMentor/testimonials-grid-section-main/)
 
-[Advice Generator](https://a1excpunk.github.io/fronEndMentor/advice-generator-app-main/)
-
-[Tip Calculator ... in process](https://a1excpunk.github.io/fronEndMentor/tip-calculator-app-main/)
+[Advice Generator]( https://a1excpunk.github.io/fronEndMentor/advice-generator-app-main/)
 
 [Interactive Pricing Component ... in process](https://a1excpunk.github.io/fronEndMentor/interactive-pricing-component-main/)
 
+###### Pages
+
 [Sunnyside Agency Landing Page ... in progress](https://a1excpunk.github.io/fronEndMentor/sunnyside-agency-landing-page-main/)
+
+###### Apps
+
+[Tip Calculator ... in process](https://a1excpunk.github.io/fronEndMentor/tip-calculator-app-main/)
+
+
+

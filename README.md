@@ -1,7 +1,5 @@
 # FronEndMentor challenge solutions
 
-## Markdown refactoring and update ... coming soon!
-
 ### Newbie
 
 ###### Components

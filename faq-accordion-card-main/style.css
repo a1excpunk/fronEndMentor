@@ -19,10 +19,6 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.mobile {
-    display: none;
-}
-
 body {
     background-image: linear-gradient(var(--primary-Soft_violet), var(--primary-Soft_blue));
     min-height: 100vh;
@@ -95,33 +91,30 @@ main {
     font-weight: 400;
 }
 
+.question h2:hover {
+    color: var(--primary-text-Soft_red);
+    transition: color 300ms ease-in-out;
+}
+
+.question h2 img{
+    transform-origin: center;
+    transition: transform 300ms ease;
+}
+
 .answer {
-    display: none;
+    opacity: 0;
+    height: 0;
+    transition: opacity 500ms linear, transform 500ms linear;
 }
 
 @media screen and (max-width:1000px) {
-    .mobile {
-        display: block;
-    }
-
-    .desktop {
-        display: none;
-    }
-
     main {
         flex-direction: column;
         width: 90%;
     }
 
-    .ilustration{
+    .ilustration {
         overflow: visible;
-    }
-
-    .bg-pattern-mobile{
-    }
-
-    .illustration-woman-online-mobile{
-        width: 100%;
     }
 
     .faq-wrapper {

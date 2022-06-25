@@ -24,6 +24,8 @@
 
 [Intro Component With Signup Form](https://a1excpunk.github.io/fronEndMentor/intro-component-with-signup-form-master/)
 
+[FAQ Accordion Card](https://a1excpunk.github.io/fronEndMentor/faq-accordion-card-main/)
+
 ###### Pages
 
 [Ping Comming Soon](https://a1excpunk.github.io/fronEndMentor/ping-coming-soon-page-master/)

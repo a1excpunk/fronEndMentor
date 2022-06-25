@@ -78,6 +78,7 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
+      user-select: none;
     }
 
     .dice-wrapper {
@@ -93,16 +94,25 @@
       top: 30px;
       cursor: pointer;
       outline: none;
-      transition-duration: 300ms;
+      user-select: none;
     }
 
     .dice-wrapper:hover {
       box-shadow: 0 0 30px hsl(150, 100%, 66%);
       transition: cubic-bezier(0.075, 0.82, 0.165, 1), 300ms;
+      animation-name: roll;
+      animation-duration: 700ms;
     }
 
     .dice-wrapper:active {
-      transform: scale(0.95);
+      transition-duration: 300ms;
+      transform: scale(.9);
+    }
+
+    @keyframes roll {
+      100% {
+        transform: rotate(360deg);
+      }
     }
 
     .attribution {
@@ -115,7 +125,7 @@
     }
 
 
-    .attribution a:hover{
+    .attribution a:hover {
       text-shadow: 0 0 10px hsl(150, 100%, 66%);
     }
 

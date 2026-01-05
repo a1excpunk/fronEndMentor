@@ -26,7 +26,7 @@
 
 [FAQ Accordion Card](https://a1excpunk.github.io/fronEndMentor/faq-accordion-card-main/)
 
-[Social Links Profile](https://a1excpunk.github.io/fronEndMentor/social_links_profile/)
+[Social Links Profile](https://a1excpunk.github.io/fronEndMentor/social_links_profile_main/)
 
 ###### Pages
 
